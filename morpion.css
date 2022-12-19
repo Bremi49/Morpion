@@ -1,7 +1,7 @@
 .row{
     display :flex;
 }
-.row div{
+.row button{
     height:10em;
     border : 2px solid black;
     width:80%;

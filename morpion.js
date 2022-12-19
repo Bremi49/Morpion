@@ -10,6 +10,7 @@ const victory = [
     [0, 4, 8],
     [2, 4, 6]
 ]
+let count = 0
 
 const displayTurn = () => {
     //premier player
@@ -22,16 +23,19 @@ const displayTurn = () => {
     //création de rond
     let circle = player1
     circle.innerText = "O"
-    
-    
+
 }
+
 //Intéragir pour que chaque joeur joue tour par tour
 const ticTurn = () => {
     //Les case vides servent a jouer
-    let game = ["", "", ""]
 }
 
 
 document.addEventListener("DOMContentLoaded", () => {
-
+    btn.addEventListener('click', ()=>{
+        const btnContentClicked = btn.cross
+        btn=document.querySelectorAll("button")
+        
+    })
 })
