@@ -1,4 +1,5 @@
 //possibilites de victoires
+
 const victory = [
     [0, 1, 2],
     [3, 4, 5],
@@ -10,13 +11,18 @@ const victory = [
     [2, 4, 6]
 ]
 
-const starCircle = () => {
+const displayTurn = () => {
     //premier player
     const player = 0
     //deuxieme player
     const player1 = 1
+    //Création de croix
+    let cross = player
+    cross.innerText = "X"
+    //création de rond
+    let circle = player1
+    circle.innerText = "O"
     
-    const caseContent = document.getElementsByClassName("row")
     
 }
 //Intéragir pour que chaque joeur joue tour par tour
