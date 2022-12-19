@@ -1,29 +1,22 @@
 //possibilites de victoires
 
-const victory = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6]
-]
-
-
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const displayTurn = () => {
-    let turn = document.querySelectorAll("#container button")
-    const player = ["X", "O"]
-    let count = 0
-    count ++
-}
-displayTurn()
+        let turn = document.querySelectorAll("#container button");
+        let player = ["X", "O"];
+        let count = 0;
+        count++
+        // displayTurn.addEventListener('click', () => {
+             // count.setAttribute(player)
+             // player.innerText[turn]
+        // })
+        displayTurn()
+    }
 })
+
+
+
+
 // function estValide(button) {
 //   return button.innerHTML.length == 0;
 // }
