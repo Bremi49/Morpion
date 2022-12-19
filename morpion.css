@@ -1,0 +1,8 @@
+.row{
+    display :flex;
+}
+.row div{
+    height:10em;
+    border : 2px solid black;
+    width:80%;
+}
